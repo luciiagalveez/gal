@@ -10,12 +10,20 @@ private ArrayList <Producto> productos;
 	
 	public Inventario() {
 		
-		productos = new ArrayList<Producto>();
+		this.productos = new ArrayList<Producto>();
 		
 	}
 	
 	public void addProducto(Producto p) {
-		productos.add(p);
+		this.productos.add(p);
+	}
+	
+	public void removeProducto (Producto p) {
+		this.productos.remove(p);
+	}
+	
+	public boolean checkIfExists (Producto p) {
+		return this.productos.contains(p); 
 	}
 	
 	public int getListSize() { //metodo para saber el tamaño de la lista (test comprueba si se ha añadido)

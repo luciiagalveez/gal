@@ -5,7 +5,8 @@ public class Producto {
 	String nombre;
 	String cat;
 	int precio;
-	int EAN;
+	String EAN;
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -24,22 +25,20 @@ public class Producto {
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
-	public int getEAN() {
+	public String getEAN() {
 		return EAN;
 	}
-	public void setEAN(int eAN) {
+	public void setEAN(String eAN) {
 		EAN = eAN;
 	}
-	
-	
-	
-	public Producto(String nombre, String cat, int precio, int eAN) {
+	public Producto(String nombre, String cat, int precio, String eAN) {
 		super();
 		this.nombre = nombre;
 		this.cat = cat;
 		this.precio = precio;
 		EAN = eAN;
 	}
+	
 	
 	
 	
