@@ -96,7 +96,7 @@
 				<configuration>
 					<archive>
 			    			<manifest>
-							<mainClass>com.ufv.</mainClass>
+							<mainClass>ufv.dis.pareja.MyUI</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
