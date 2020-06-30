@@ -1,11 +1,8 @@
 package ufv.dis.pareja;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
-import java.util.Date;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
